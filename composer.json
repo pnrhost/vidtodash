@@ -1,23 +1,24 @@
 {
-    "name": "Pnrhost/Vidtodash",
+    "name": "vidtodash",
     "type": "library",
-    "description": ":package_description",
+    "description": "Laravel library to convert videos to dash",
     "keywords": [
         "Pnrhost",
         "Vidtodash"
     ],
-    "homepage": "https://github.com/Pnrhost/Vidtodash",
+    "homepage": "https://github.com/pnrhost/vidtodash",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": ":author_website",
+            "name": "Pnrhost",
+            "email": "privyreza@gmail.com",
+            "homepage": "pnrhost.com",
             "role": "Developer"
         }
     ],
     "require": {
         "illuminate/support": "~5.1",
+        "spatie/laravel-medialibrary": "^6.0",
         "php" : "~5.6|~7.0"
     },
     "require-dev": {
