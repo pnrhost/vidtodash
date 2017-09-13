@@ -1,5 +1,5 @@
 {
-    "name": "vidtodash",
+    "name": "pnrhost/vidtodash",
     "type": "library",
     "description": "Laravel library to convert videos to dash",
     "keywords": [
