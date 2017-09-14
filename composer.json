@@ -1,18 +1,18 @@
 {
-    "name": "Pnrhost/Vidtodash",
+    "name": "pnrhost/vidtodash",
     "type": "library",
-    "description": ":package_description",
+    "description": "Laravel Library to convert videos to dash",
     "keywords": [
         "Pnrhost",
         "Vidtodash",
         "Dash",
         "HLS"
     ],
-    "homepage": "https://github.com/Pnrhost/Vidtodash",
+    "homepage": "https://github.com/pnrhost/vidtodash",
     "license": "MIT",
     "authors": [
         {
-            "name": "privyreza",
+            "name": "prnhost",
             "email": "privyreza@gmail.com",
             "homepage": "http://pnrhost.com",
             "role": "Developer"
