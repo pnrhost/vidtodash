@@ -1,4 +1,4 @@
-# :package_name
+# Vidtodash
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
@@ -7,7 +7,7 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-A Laravel library to convert videos to dash format. Coding is based on PSR-4 Standards
+A Laravel library to convert videos to dash format. Coding is based on PSR-2 Standards
 
 ## Structure
 

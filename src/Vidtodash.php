@@ -4,13 +4,14 @@ namespace Pnrhost\Vidtodash;
 
 class Vidtodash
 {
-    public function __construct($file)
+    public function __construct($post = null)
     {
-        $this->file = $file;
 
-        $formated_vid = Ffmpeg($this->file);
+        $this->file = $post->getMedia('videos')->first()->getPath();
 
-        return $dash = Mp4dash($formated_vid);
+        $formated_vid = new Ffmpeg($this->file);
+
+        $dash = new Mp4box($post);
     }
 
     

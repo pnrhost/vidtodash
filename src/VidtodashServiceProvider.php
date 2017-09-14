@@ -15,6 +15,11 @@ class VidtodashServiceProvider extends ServiceProvider
     {
 
         $this->loadRoutesFrom(__DIR__. '/Http/routes.php');
+
+        $this->publishes([
+            realpath(__DIR__.'/../../config/vidtodash.php') => config_path('vidtodash.php'),
+        ]);
+        $config = $this->app['config']['api'];
     }
 
     /**
@@ -24,11 +29,8 @@ class VidtodashServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->registerVidtodash();
-    }
-
-    protected function registerVidtodash()
-    {
-        return new Vidtodash();
+         $this->app->singleton('vidtodash', function ($app) {
+            return new Vidtodash;
+         });
     }
 }
