@@ -13,7 +13,8 @@ class VidtodashServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+
+        $this->loadRoutesFrom(__DIR__. '/Http/routes.php');
     }
 
     /**
@@ -23,6 +24,11 @@ class VidtodashServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->registerVidtodash();
+    }
+
+    protected function registerVidtodash()
+    {
+        return new Vidtodash();
     }
 }

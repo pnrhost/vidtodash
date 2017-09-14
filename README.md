@@ -1,4 +1,4 @@
-# Vidstodash
+# :package_name
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
@@ -7,7 +7,7 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-A Laravel library to convert videos to dash. 
+A Laravel library to convert videos to dash format. Coding is based on PSR-4 Standards
 
 ## Structure
 
@@ -27,14 +27,13 @@ vendor/
 Via Composer
 
 ``` bash
-$ composer require pnrhost/vidstodash
+$ composer require pnrhost/vidtodash
 ```
 
 ## Usage
 
 ``` php
-$skeleton = new League\Skeleton();
-echo $skeleton->echoPhrase('Hello, League!');
+$dash = new Vidtodash\Vidtodash($file);
 ```
 
 ## Change log
@@ -53,28 +52,28 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) and [CODE_OF_CONDUCT](CODE_OF_CONDUCT
 
 ## Security
 
-If you discover any security related issues, please email :author_email instead of using the issue tracker.
+If you discover any security related issues, please email <privyreza[at]gmail.com> instead of using the issue tracker.
 
 ## Credits
 
-- [:author_name][link-author]
+- [pnrhost][link-author]
 - [All Contributors][link-contributors]
 
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/:vendor/:package_name.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/pnrhost/vidtodash.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/:vendor/:package_name/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/:vendor/:package_name.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/:vendor/:package_name.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/:vendor/:package_name.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/pnrhost/vidtodash/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/pnrhost/vidtodash.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/pnrhost/vidtodash.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/pnrhost/vidtodash.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/:vendor/:package_name
-[link-travis]: https://travis-ci.org/:vendor/:package_name
-[link-scrutinizer]: https://scrutinizer-ci.com/g/:vendor/:package_name/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/:vendor/:package_name
-[link-downloads]: https://packagist.org/packages/:vendor/:package_name
-[link-author]: https://github.com/:author_username
+[link-packagist]: https://packagist.org/packages/pnrhost/vidtodash
+[link-travis]: https://travis-ci.org/pnrhost/vidtodash
+[link-scrutinizer]: https://scrutinizer-ci.com/g/pnrhost/vidtodash/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/pnrhost/vidtodash
+[link-downloads]: https://packagist.org/packages/pnrhost/vidtodash
+[link-author]: https://github.com/pnrhost
 [link-contributors]: ../../contributors
