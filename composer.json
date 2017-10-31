@@ -47,7 +47,7 @@
         },
         "laravel": {
         "providers": [
-            "Pnrhost\\Vidtodash\\ServiceProvider"
+            "Pnrhost\\Vidtodash\\VidtodashServiceProvider"
         ],
         "aliases": {
             "Vidtodash": "Pnrhost\\Vidtodash\\Facade"

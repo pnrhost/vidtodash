@@ -31,9 +31,9 @@ $ composer require pnrhost/vidtodash
 ```
 
 ## Usage
-
+The code below will get last uploaded video and convert it!
 ``` php
-$dash = new Vidtodash\Vidtodash($file);
+$dash = new Vidtodash\Vidtodash();
 ```
 
 ## Change log
