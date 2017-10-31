@@ -13,6 +13,9 @@ class Ffmpeg
 
     public function convert()
     {
+        echo 'FFMPEG - Converting ....';
+
+
         $file_path_parts_array = explode('/', $this->file);
         $file_path_parts_array = array_filter($file_path_parts_array);
         $file = array_pop($file_path_parts_array);
@@ -30,9 +33,6 @@ class Ffmpeg
 
 
         exec($cmd, $output, $value);
-
-        // var_dump($output);
-        // var_dump($value);
     }
 
     public $file;

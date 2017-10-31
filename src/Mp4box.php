@@ -15,6 +15,7 @@ class Mp4box
 
     public function convert()
     {
+        echo 'MP4BOX - Dashing....';
 
         $file_path_parts_array = explode('/', $this->file);
         $file_path_parts_array = array_filter($file_path_parts_array);
